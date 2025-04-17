@@ -1,1 +1,1 @@
-# data-engineering-bootcamp-sql-python
+# My self-learning repo to prepare for a data engineering internship using SQL 😊
