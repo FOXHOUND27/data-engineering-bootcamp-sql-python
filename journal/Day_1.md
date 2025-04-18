@@ -2,8 +2,9 @@
 
 ## ✅ What I Did
 
-- Practiced basic SQL SELECT statements using AdventureWorks
-- Wrote a simple Python script with lists and dictionaries
+- Practiced basic SQL SELECT statements using AdventureWorks.
+- Completed 2 SQL Leetcode questions.
+- Wrote a simple Python script with lists and dictionaries.
 
 ## 🧠 Key Concepts
 
