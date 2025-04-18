@@ -12,7 +12,7 @@
 
 ## ⚠️ Errors Faced
 
-- SQL Server error: invalid column name → fixed by checking table schema
+- SQL Server error: Used Double qoutes instead of single qoutes for my where clause and got an error
 - Python: forgot quotes in dictionary keys
 
 ## 🎯 Next Goal
