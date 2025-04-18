@@ -1,1 +1,4 @@
-print("We are ready to go")
+
+name ='Dalglish'
+
+print(name)
