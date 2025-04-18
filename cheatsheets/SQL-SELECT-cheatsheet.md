@@ -9,5 +9,6 @@
 ### Then use FROM to choose which table to extract the information From.
 
 ```sql
-SELECT column1, column2 FROM table;
+SELECT column1, column2
+FROM table;
 ```
