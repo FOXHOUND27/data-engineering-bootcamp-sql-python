@@ -7,7 +7,7 @@
 
 ## 🧠 Key Concepts
 
-- SQL: `SELECT`, `FROM`, `WHERE`
+- SQL: `SELECT`, `FROM`, `WHERE`,`LIKE`,`BETWEEN`
 - Python: `sum()`, working with `dict` and `list`
 
 ## ⚠️ Errors Faced
@@ -17,5 +17,5 @@
 
 ## 🎯 Next Goal
 
-- SQL: Learn about `JOIN`
+- SQL: Learn about `ORDER BY`, `DISTINCT`, `LIMIT`
 - Python: Learn about `for` loops and `if` conditions
