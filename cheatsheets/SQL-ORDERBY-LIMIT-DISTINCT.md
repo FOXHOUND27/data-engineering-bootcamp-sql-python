@@ -37,3 +37,21 @@ SELECT column1, column2
 FROM table_name
 LIMIT number;
 ```
+
+# 📘 T-SQL `TOP` Clause – Tutorial
+
+## 🧠 What is `TOP`?
+
+The `TOP` clause in **T-SQL (SQL Server)** is used to **limit the number of rows** returned in a `SELECT` query.
+
+> 🔄 It’s the SQL Server version of `LIMIT` (used in MySQL and PostgreSQL).
+
+---
+
+## ✅ Basic Syntax
+
+```sql
+SELECT TOP (number) column1, column2
+FROM table_name
+ORDER BY column;
+```
