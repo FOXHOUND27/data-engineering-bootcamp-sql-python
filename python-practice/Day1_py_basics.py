@@ -1,7 +1,8 @@
 
-Balance = 0
-Exit = False
+people = {
+    "dalglish": {"age": 28, "Ethnicity": "Damara/Caprivian"},
+    "Seline": {"age": 27, "Ethnicity": "Damara"},
+    "Charles": {"age": 27, "Ethnicity": "Damara/Caprivian"}
+}
 
-while Exit = False:
-    print("(1) Add money, \n(2) Spend money, \n(3) View balance, \n(4) Exit.")
-    print(input("Enter Option"))
+print(people["dalglish"])
