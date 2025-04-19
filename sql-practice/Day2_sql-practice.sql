@@ -43,5 +43,5 @@ SELECT TOP 10
       SalesOrderHeader.TotalDue
 
 FROM AdventureWorks2022.Sales.SalesOrderHeader
-ORDER BY SalesOrderHeader.TotalDue
+ORDER BY SalesOrderHeader.TotalDue DESC;
 
