@@ -3,7 +3,7 @@
 ## ✅ What I Did
 
 - Practiced Filtering using ORDER BY and TOP
-- Completed 2 SQL Leetcode questions.
+- Completed 3 SQL Leetcode questions.
 - Wrote 2 simple python functions for my add and remove feature for the to list cli app
 
 ## 🧠 Key Concepts
