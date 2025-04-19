@@ -4,20 +4,20 @@
 
 - Practiced Filtering using ORDER BY and TOP
 - Completed 2 SQL Leetcode questions.
-- Wrote a simple Python script with lists and dictionaries.
+- Wrote 2 simple python functions for my add and remove feature for the to list cli app
 
 ## 🧠 Key Concepts
 
 - SQL: `ORDER BY`, `LIMIT`, `TOP`,
-- Python: learned basic python syntax
+- Python: learned `DICTIONERIES`,`FUNCTIONS`,`VARIABLES`,`DATATYPES`
 
 ## ⚠️ Errors Faced
 
 - SQL Server error: Learned that adventureWorksOLTP is based on TSQL and does not have limit
   but instead uses top to restrict the number of rows I request for.
-- Python: forgot quotes in dictionary keys
+- Python: Faced a lot of errors trying to implement my data structure using a dictionary
 
 ## 🎯 Next Goal
 
-- SQL: Learn about `ORDER BY`, `DISTINCT`, `LIMIT`
-- Python: Learn about Variables, Data types, Lists, Loops
+- SQL: Learn about `iNNER JOIN`, `LEFT JOIN`, `RIGHT JOIN`
+- Python: Learn about loops,conditionals, match statement
