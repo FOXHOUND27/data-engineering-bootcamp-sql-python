@@ -2,18 +2,19 @@
 
 ## ✅ What I Did
 
-- Practiced basic SQL SELECT statements using AdventureWorks.
+- Practiced Filtering using ORDER BY and TOP
 - Completed 2 SQL Leetcode questions.
 - Wrote a simple Python script with lists and dictionaries.
 
 ## 🧠 Key Concepts
 
-- SQL: `SELECT`, `FROM`, `WHERE`,`LIKE`,`BETWEEN`
+- SQL: `ORDER BY`, `LIMIT`, `TOP`,
 - Python: learned basic python syntax
 
 ## ⚠️ Errors Faced
 
-- SQL Server error: Used Double qoutes instead of single qoutes for my where clause and got an error
+- SQL Server error: Learned that adventureWorksOLTP is based on TSQL and does not have limit
+  but instead uses top to restrict the number of rows I request for.
 - Python: forgot quotes in dictionary keys
 
 ## 🎯 Next Goal
