@@ -25,12 +25,16 @@ def markTask(taskNumber):
     else:
         print("Task not found")
 
+# Creating a function for deleting the task
+
+
+def deleteTask(taskNumber):
+    tasks.pop(taskNumber)
+
 
 addTask("Clean House", 1)
 addTask("Bath Dog", 2)
 addTask("Iron Clothes", 3)
 
-markTask(1)
-markTask(2)
 
 print(tasks)
