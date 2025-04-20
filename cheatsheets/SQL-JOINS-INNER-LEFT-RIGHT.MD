@@ -137,3 +137,36 @@ SELECT *
 FROM A
 INNER JOIN B ON A.id = B.a_id;
 ```
+
+### 2. LEFT JOIN
+
+- **Use When**: You need **all records from the left table, and matches from the right** (or NULLs if no match)
+- **Result**: Complete data from table A, with B's data where available.
+
+```sql
+SELECT *
+FROM A
+LEFT JOIN B ON A.id = B.a_id;
+```
+
+### 3. RIGHT JOIN
+
+- **Use When**: You need **all records from the right table, and matches from the left** (or NULLs if no match).
+- **Result**: Complete data from table B, with A's data where available.
+
+```sql
+SELECT *
+FROM A
+RIGHT JOIN B ON A.id = B.a_id;
+```
+
+### 4. FULL JOIN
+
+- **Use When**: You want **all records from both tables**, regardless of whether they match.
+- **Result**: Everything from both tables, with NULLs for non-matches.
+
+```sql
+SELECT *
+FROM A
+FULL OUTER JOIN B ON A.id = B.a_id;
+```
