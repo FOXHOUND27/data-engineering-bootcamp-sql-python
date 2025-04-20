@@ -85,13 +85,3 @@ FULL OUTER JOIN orders ON customers.customer_id = orders.customer_id;
 | FULL OUTER JOIN | Everything, match or no match      | All customers and all orders                |
 
 ---
-
----
-
-## 🖼️ Visual Diagram of SQL Joins
-
-Here’s a Venn diagram to help visualize the different types of joins:
-
-![SQL Joins Diagram](https://raw.githubusercontent.com/sergeykolodich/sql-joins-diagram/master/sql-joins.png)
-
----
