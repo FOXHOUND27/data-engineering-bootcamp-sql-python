@@ -2,22 +2,21 @@
 
 ## ✅ What I Did
 
-- Practiced Filtering using ORDER BY and TOP
+- Practiced INNER JOIN , LEFT JOIN , RIGHT JOIN , FULL JOIN
 - Completed 3 SQL Leetcode questions.
-- Wrote 2 simple python functions for my add and remove feature for the to list cli app
+- Implemented the add , view and Exit functionality on my task app
 
 ## 🧠 Key Concepts
 
-- SQL: `ORDER BY`, `LIMIT`, `TOP`,
-- Python: learned `DICTIONERIES`,`FUNCTIONS`,`VARIABLES`,`DATATYPES`
+- SQL: `INNER JOIN`, `LEFT JOIN`, `RIGHT JOIN`,`FULL JOIN`
+- Python: learned `LOOPS`,`RANDOM NUMBER PACKAGE`,`WHILE LOOP`
 
 ## ⚠️ Errors Faced
 
-- SQL Server error: Learned that adventureWorksOLTP is based on TSQL and does not have limit
-  but instead uses top to restrict the number of rows I request for.
-- Python: Faced a lot of errors trying to implement my data structure using a dictionary
+- SQL Server error: Faced challenges on which tables to use for my joins
+- Python: Did not know how to implement the loop functionality so I used chat and w3 schools
 
 ## 🎯 Next Goal
 
-- SQL: Learn about `iNNER JOIN`, `LEFT JOIN`, `RIGHT JOIN`
-- Python: Learn about loops,conditionals, match statement
+- SQL: Learn about `GROUP BY`, `SUM`, `HAVING`
+- Python: follow one mini project tutorial and build 2 to 3 mini projects to learn syntax

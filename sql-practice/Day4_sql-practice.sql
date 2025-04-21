@@ -1,3 +1,4 @@
+ -- INNER JOINS PRACTICE
  -- Question 1: List Orders with Customer Details
  /*
  Write a query to list the SalesOrderID, OrderDate, CustomerID, 
@@ -48,3 +49,51 @@ FROM Sales.SalesOrderDetail
 
 INNER JOIN Production.Product
 ON  SalesOrderDetail.ProductID = Product.ProductID
+
+-- LEFT JOINS PRACTICE
+
+-- Challenge 1: Customers Without Recent Orders
+/*
+Write a query to list all customers, along with the date of their most recent order,
+even if they haven’t placed any orders.
+
+Show: CustomerID, Full Name, OrderDate (can be NULL if no order)
+*/
+
+SELECT DISTINCT
+               Sales.Customer.CustomerID,
+               Person.Person.FirstName,
+               Person.Person.LastName,
+               Sales.SalesOrderHeader.OrderDate
+
+FROM Person.Person
+
+INNER JOIN Sales.Customer
+ON Person.BusinessEntityID = Customer.PersonID
+
+LEFT  JOIN Sales.SalesOrderHeader
+ON Customer.CustomerID = SalesOrderHeader.CustomerID
+
+ORDER BY SalesOrderHeader.OrderDate DESC;
+
+
+
+-- Challenge 2: Products Never Sold
+/*
+Write a query that lists all products, along with the quantity sold and order ID,
+even if they’ve never been sold.
+
+Show: ProductID, Product Name, SalesOrderID, OrderQty
+*/
+
+
+SELECT DISTINCT
+               Production.Product.ProductID,
+               Production.Product.Name as Product_Name,
+               Sales.SalesOrderDetail.SalesOrderID,
+               Sales.SalesOrderDetail.OrderQty
+
+FROM Production.Product
+
+LEFT JOIN Sales.SalesOrderDetail
+ON Product.ProductID = SalesOrderDetail.ProductID
