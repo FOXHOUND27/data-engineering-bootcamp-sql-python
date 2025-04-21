@@ -30,8 +30,8 @@ def markTask(taskNumber):
 # Creating a function for deleting the task
 
 
-def deleteTask(taskNumber):
-    tasks.pop(taskNumber)
+def deleteTask(name):
+    tasks.pop(name)
 
 # Creating function to view all tasks
 
@@ -46,8 +46,7 @@ while EXIT == True:
     print("\n📝 To-Do List Menu:")
     print("1. Add Task")
     print("2. View Tasks")
-    print("3. Remove Task")
-    print("5. Exit")
+    print("3. Exit")
 
     choice = input("Enter choice (1-5) : ")
 
@@ -61,5 +60,5 @@ while EXIT == True:
         print('Your to do list')
         viewTasks()
 
-    if choice == '5':
+    if choice == '3':
         EXIT = False
