@@ -3,7 +3,7 @@
 ## ✅ What I Did
 
 - Practiced INNER JOIN , LEFT JOIN , RIGHT JOIN , FULL JOIN
-- Completed 3 SQL Leetcode questions.
+- Completed 1 SQL Leetcode questions.
 - Implemented the add , view and Exit functionality on my task app
 
 ## 🧠 Key Concepts
