@@ -97,3 +97,4 @@ FROM Production.Product
 
 LEFT JOIN Sales.SalesOrderDetail
 ON Product.ProductID = SalesOrderDetail.ProductID
+
