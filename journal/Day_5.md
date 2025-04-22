@@ -2,8 +2,9 @@
 
 ## ✅ What I Did
 
-- Strugglin to grasp the concept of group by so will do that topic again tomorrow
-- applied concepts of variables,loops and conditionals to build a BMI calculator
+- Strugglin to grasp the concept of group by so will do that topic again tomorrow.
+- Applied concepts of variables,loops and conditionals to build a BMI calculator
+- Completed one leetcode question.
 
 ## 🧠 Key Concepts
 
