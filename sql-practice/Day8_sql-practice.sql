@@ -31,15 +31,17 @@ HAVING SUM(SalesOrderHeader.TotalDue) > 1000
 -- 5. List all unique cities where customers are located.
 
 SELECT 
-       COUNT(Sales.Customer.CustomerID),
-       Person.CountryRegion.Name AS Customer_City
+       COUNT(DISTINCT Sales.Customer.CustomerID) AS Total_Customers,
+       Person.Address.City AS Customer_City
 
 FROM Sales.Customer
 
 INNER JOIN Person.StateProvince
 ON Customer.TerritoryID = StateProvince.TerritoryID
 
-INNER JOIN Person.CountryRegion
-ON StateProvince.CountryRegionCode = CountryRegion.CountryRegionCode
+INNER JOIN Person.Address
+ON StateProvince.StateProvinceID = Address.StateProvinceID
 
-GROUP BY CountryRegion.Name
+GROUP BY Address.City
+
+ORDER BY Address.City ASC;
