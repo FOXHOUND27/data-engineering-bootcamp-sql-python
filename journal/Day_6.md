@@ -1,4 +1,4 @@
-# 📅 Day 1: April 23 , 2025
+# 📅 Day 6: April 23 , 2025
 
 ## ✅ What I Did
 
@@ -18,5 +18,5 @@
 
 ## 🎯 Next Goal
 
-- SQL: Do 5 sql challenges to combine everything I learned.
+- SQL: Do 10 sql challenges to combine everything I learned.
 - Python: Complete youtube tutorial mini project and then build for projects of my own.

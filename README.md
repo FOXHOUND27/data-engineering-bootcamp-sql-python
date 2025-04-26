@@ -7,6 +7,6 @@
 ## 🌱 Author
 
 **Dalglish**  
-Aspiring Data Engineer | Passionate about data, growth, and impact 🚀
+Aspiring Data Architect | Passionate about data, growth, and impact 🚀
 
 ---
