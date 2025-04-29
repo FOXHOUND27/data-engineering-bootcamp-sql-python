@@ -3,20 +3,20 @@
 ## ✅ What I Did
 
 - Completed 3 of my sql challenges
-- Completed a mini python phonebook project to add and view numbers
+- Built a function to extract data from a csv file
 -
 
 ## 🧠 Key Concepts
 
 - SQL : Merging all SQL Concepts together to strengthen my grasp of sql
-- Python: learned `DICTIONARIES`,
+- Python: learned `PANDAS`,
 
 ## ⚠️ Errors Faced
 
-- Python: Faced errors with dictionary syntax.
+- Python: Faced errors learning how to use pandas but then figured it out.
 - SQL : Did not face any challenges.
 
 ## 🎯 Next Goal
 
 - SQL: Further work on my SQL challenges.
-- Python: Start working on learning python for ETL pipelines
+- Python: Continue working on my mini ETL pipeline script.
