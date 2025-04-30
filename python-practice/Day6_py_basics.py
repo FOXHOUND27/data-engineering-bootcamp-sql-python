@@ -1,3 +1,5 @@
+# commiting partial completion of my python code for a mini gamee
+
 import random
 
 
@@ -17,5 +19,7 @@ while True:
         if 1 <= players <= 3:
             print('Players must be between 1 - 3 ')
             break
+        else:
+            print('Invalid , please try again')
 
 print(players)
